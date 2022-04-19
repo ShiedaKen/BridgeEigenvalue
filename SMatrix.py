@@ -10,8 +10,6 @@ class BeamMatrix:
     G1List = []
     G2List = []
     G3List = []
-    CF0 = []
-    CF1 = []
 
     def __init__(self, x, k=1):
         c = np.cos(x)
@@ -64,9 +62,7 @@ class BeamMatrix:
         BeamMatrix.G1List = []
         BeamMatrix.G2List = []
         BeamMatrix.G3List = []
-        BeamMatrix.CF0 = []
-        BeamMatrix.CF1 = []
-
+        
 
 def k(a, e, l):
     return (a*e)/l
