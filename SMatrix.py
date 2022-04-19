@@ -58,7 +58,7 @@ class BeamMatrix:
     def reset(cls):
         cls.C0List = []
         cls.C1List = []
-        cls.ist = []
+        cls.G0List = []
         cls.G1List = []
         cls.G2List = []
         cls.G3List = []
