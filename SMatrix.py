@@ -1,6 +1,5 @@
 import numpy as np
 import sys
-from EigenvalueFind import max_element, powerInv
 np.set_printoptions(suppress=True, threshold=sys.maxsize)
 
 
@@ -32,7 +31,6 @@ class BeamMatrix:
         BeamMatrix.G1List.append(self.a1[0:2])
         BeamMatrix.G2List.append(self.a2)
         BeamMatrix.G3List.append(self.a3)
-
 
     @staticmethod
     def CommonAdd(index):

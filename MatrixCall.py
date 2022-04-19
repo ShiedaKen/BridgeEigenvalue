@@ -1,4 +1,5 @@
 from SMatrix import *
+from EigenvalueFind import powerInv
 
 # Create beams
 A = BeamMatrix(0)
