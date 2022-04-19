@@ -56,12 +56,12 @@ class BeamMatrix:
 
     @classmethod
     def reset(cls):
-        BeamMatrix. C0List = []
-        BeamMatrix.C1List = []
-        BeamMatrix.G0List = []
-        BeamMatrix.G1List = []
-        BeamMatrix.G2List = []
-        BeamMatrix.G3List = []
+        cls.C0List = []
+        cls.C1List = []
+        cls.ist = []
+        cls.G1List = []
+        cls.G2List = []
+        cls.G3List = []
         
 
 def k(a, e, l):
