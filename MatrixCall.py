@@ -29,4 +29,5 @@ c = np.diag(Off2, k=2)
 d = np.diag(Off3, k=3)
 m = a+b+c+d         # Create main matrix
 m += m.T - np.diag(np.diag(m))          # Fill based on symmetry
-print(np.sqrt(powerInv(m, 1)[0]))
+mass = 1
+print(np.sqrt(powerInv(m, 1)[0]/mass))
